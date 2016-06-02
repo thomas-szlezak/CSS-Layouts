@@ -1,3 +1,7 @@
+#pagewrap {
+	width: 94%;
+}
+
 .menu {
 	text-decoration: none;
 	margin: auto;
@@ -9,7 +13,7 @@ a {
 
 li {
 	list-style: none;
-	display: inline-block;
+	display: inline;
 
 }
 
@@ -20,9 +24,6 @@ div {
 
 }
 
-#pagewrap {
-	width: 94%;
-}
 
 
 #left {
@@ -44,10 +45,10 @@ div {
 }
 
 #footer {
-	background-color: darkgray;
-	margin: 0 auto;
-	width: 80%;
 	clear: both;
+	background-color: darkgray;
+	width: 600px;
+	margin: 0 auto;
 
 }
 
