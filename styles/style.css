@@ -1,5 +1,6 @@
 .menu {
 	text-decoration: none;
+	margin: auto;
 }
 
 a {
@@ -8,8 +9,48 @@ a {
 
 li {
 	list-style: none;
-	display: inline;
-	font-style: bold;
+	display: inline-block;
 
+}
+
+div {
+	display: inline-block;
+	padding: 25px;
+	font-family: arial;
+
+}
+
+#pagewrap {
+	width: 94%;
+}
+
+
+#left {
+	background-color: lightgray;
+	width: 25%;
+	float: left;
+}
+
+#maincontent {
+	background-color: green;
+	width: 35%;
+	float: left;
+}
+
+#right {
+	background-color: darkgray;
+	width: 25%;
+	float: left;
+}
+
+#footer {
+	background-color: darkgray;
+	margin: 0 auto;
+	width: 80%;
+	clear: both;
+
+}
+
+#social {
 
 }
