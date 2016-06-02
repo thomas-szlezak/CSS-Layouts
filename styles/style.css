@@ -1,21 +1,31 @@
 
 
 header {
+	height: 120px;
+	display: inline;
+
 }
 
 #navleft {
-
+	display: inline;
 }
 
 #logo {
+	display: inline;
+	width: 30%;
+	float: left;
+	font-size: 24px;
+	font-family: sans-serif;
+	text-align: center;
 }
 
 nav {
-	margin: auto;
 }
 
 ul {
 	list-style-type: none;
+	float: left;
+
 }
 
 li {
@@ -32,10 +42,11 @@ li a {
 
 
 
-/*#pagewrap {
+#pagewrap {
 	width: 94%;
 	clear: both;
-}*/
+	margin: 0 auto;
+}
 
 .menu {
 	text-decoration: none;
@@ -47,9 +58,8 @@ li a {
 
 
 div {
-	display: inline-block;
-	padding: 25px;
 	font-family: arial;
+
 }
 
 
@@ -58,27 +68,45 @@ div {
 	background-color: lightgray;
 	width: 25%;
 	float: left;
+	padding: 25px;
 }
 
 #maincontent {
 	background-color: green;
 	width: 35%;
 	float: left;
+	padding: 25px;
 }
 
 #right {
 	background-color: darkgray;
 	width: 25%;
 	float: left;
+	padding: 25px;
 }
 
 #footer {
 	clear: both;
 	background-color: darkgray;
 	width: 500px;
+	padding: 25px;
 	margin: 0 auto;
+}
 
+#left2columns{
+	background-color: lightgray;
+	width: 40%;
+	float: left;
+	padding: 25px;
+	margin: 10px auto;
+}
 
+#right2columns {
+	background-color: lightgray;
+	width: 40%;
+	float: left;
+	padding: 25px;
+	margin: 10px;
 }
 
 #social {
