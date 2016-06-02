@@ -43,9 +43,7 @@ li a {
 
 
 #pagewrap {
-	width: 94%;
 	clear: both;
-	margin: 0 auto;
 }
 
 .menu {
@@ -95,7 +93,7 @@ div {
 
 #left2columns{
 	background-color: lightgray;
-	width: 40%;
+	width: 42%;
 	float: left;
 	padding: 25px;
 	margin: 10px auto;
@@ -103,10 +101,17 @@ div {
 
 #right2columns {
 	background-color: lightgray;
-	width: 40%;
+	width: 42%;
 	float: left;
 	padding: 25px;
 	margin: 10px;
+}
+
+#socialmedia {
+	position: fixed;
+	margin-top: 10px;
+	
+
 }
 
 #social {
